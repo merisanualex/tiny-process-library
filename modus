@@ -7,5 +7,9 @@
       - -Wall
       - -Wextra
   sources:
-    - process.cpp
-    - process_unix.cpp
+    common:
+      - process.cpp
+    linux:
+      - process_unix.cpp
+    windows:
+      - process_win.cpp
