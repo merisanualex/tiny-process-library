@@ -1,0 +1,11 @@
+- unit: tiny-process-library
+  language: cpp
+  type: static library
+  compile flags:
+    private:
+      - -std=c++11
+      - -Wall
+      - -Wextra
+  sources:
+    - process.cpp
+    - process_unix.cpp
