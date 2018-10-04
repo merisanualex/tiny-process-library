@@ -13,5 +13,7 @@
       - process.cpp
     linux:
       - process_unix.cpp
+    osx:
+      - process_unix.cpp
     windows:
       - process_win.cpp
