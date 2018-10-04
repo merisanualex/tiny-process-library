@@ -1,6 +1,8 @@
 - unit: tiny-process-library
   language: cpp
   type: static library
+  dependencies:
+    - +pthread
   compile flags:
     private:
       - -std=c++11
