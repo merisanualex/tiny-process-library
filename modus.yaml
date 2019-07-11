@@ -1,5 +1,7 @@
 - target: tiny-process-library
   type: static lib
+  dependencies:
+    - system.pthread
   compile flags:
     - c++11
     - AllWarnings
