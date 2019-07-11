@@ -1,11 +1,9 @@
-- unit: tiny-process-library
-  language: cpp
-  type: static library
+- target: tiny-process-library
+  type: static lib
   compile flags:
-    private:
-      - -std=c++11
-      - -Wall
-      - -Wextra
+    - c++11
+    - AllWarnings
+    - ExtraWarnings
   sources:
     common:
       - process.cpp
