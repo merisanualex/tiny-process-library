@@ -2,7 +2,7 @@
   type: static lib
   dependencies:
     - system.pthread
-  compile flags:
+  compile switches:
     - c++11
     - AllWarnings
     - ExtraWarnings
