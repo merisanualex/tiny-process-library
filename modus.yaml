@@ -8,6 +8,7 @@
     - ExtraWarnings
   sources:
     common:
+      - include/process.hpp
       - process.cpp
     linux:
       - process_unix.cpp
